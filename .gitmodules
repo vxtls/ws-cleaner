@@ -1,0 +1,6 @@
+[submodule "vendor/spdlog"]
+	path = vendor/spdlog
+	url = https://github.com/gabime/spdlog.git
+[submodule "vendor/uWebSockets"]
+	path = vendor/uWebSockets
+	url = https://github.com/uNetworking/uWebSockets.git
