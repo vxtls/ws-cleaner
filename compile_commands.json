@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/root/websocket-cleaner/build",
+  "command": "/usr/bin/g++ -I/root/websocket-cleaner/vendor /usr/bin/g++ -I/root/websocket-cleaner/vendor/spdlog/include -g -std=gnu++2a -o CMakeFiles/ws-cleaner.dir/main.cpp.o -c /root/websocket-cleaner/main.cpp",
+  "file": "/root/websocket-cleaner/main.cpp",
+  "output": "/root/websocket-cleaner/build/CMakeFiles/ws-cleaner.dir/main.cpp.o"
+}
+]

@@ -1,0 +1,21 @@
+[server]
+listen_address = 0.0.0.0
+listen_port = 8082
+target_address = localhost
+target_port = 8081
+
+[rate_limit]
+max_messages_per_minute = 80
+short_window_seconds = 5
+short_window_max = 10
+long_ban_seconds = 60
+short_ban_seconds = 30
+ignore_control_frames = false
+
+[performance]
+max_websocket_message_size = 16777216  # 16MB limit
+enable_tcp_nodelay = true              # Reduce latency
+enable_keep_alive = true              # Optional TCP keep-alive
+buffer_size = 8192
+io_threads = 0
+session_cleanup_interval = 300
